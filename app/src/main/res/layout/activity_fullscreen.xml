@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.packruler.kitkatdock.app.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Artist"
+            android:id="@id/artistTextView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Album"
+            android:id="@id/albumTextView"
+            android:layout_below="@id/artistTextView"
+            android:layout_alignParentStart="true"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Track"
+            android:id="@id/trackTextView"
+            android:layout_below="@id/albumTextView"
+            android:layout_alignParentStart="true"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/AlbumUpdate"
+            android:id="@id/albumUpdate"
+            android:layout_alignTop="@id/albumTextView"
+            android:layout_toRightOf="@id/albumTextView"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ArtistUpdate"
+            android:id="@id/artistUpdate"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/albumTextView"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/TrackUpdate"
+            android:id="@id/trackUpdate"
+            android:layout_alignTop="@id/trackTextView"
+            android:layout_toRightOf="@id/albumTextView"
+            android:layout_marginLeft="10dp"
+            android:singleLine="false" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@id/albumArt"
+            android:layout_gravity="center"
+            android:background="#0099ff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/albumArt"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skipBack"
+            android:id="@id/skipBack"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:onClick="buttonClicked" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playPause"
+            android:id="@id/playPause"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="buttonClicked" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skipForward"
+            android:id="@id/skipForward"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="buttonClicked" />
+
+
+</RelativeLayout>

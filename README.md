@@ -1,0 +1,1 @@
+This is initial testing of NotificationListener and RemoteController capabilities

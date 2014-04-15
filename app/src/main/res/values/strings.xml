@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KitKat Dock</string>
+    <string name="Artist">Artist: </string>
+    <string name="Album">Album: </string>
+    <string name="Track">Track: </string>
+    <string name="ArtistUpdate">Artist Name</string>
+    <string name="AlbumUpdate">Album Title</string>
+    <string name="TrackUpdate">Track Title</string>
+    <string name="skipBack">Reverse</string>
+    <string name="playPause">Play/Pause</string>
+    <string name="skipForward">Forward</string>
+    <string name="albumArt">Album Artwork</string>
+
+</resources>

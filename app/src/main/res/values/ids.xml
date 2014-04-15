@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fullscreen_content_controls" type="id" />
+    <item name="fullscreen_content" type="id" />
+    <item name="artistTextView" type="id"/>
+    <item name="albumTextView" type="id"/>
+    <item name="trackTextView" type="id"/>
+    <item name="artistUpdate" type="id"/>
+    <item name="albumUpdate" type="id"/>
+    <item name="trackUpdate" type="id"/>
+    <item name="skipBack" type="id"/>
+    <item name="playPause" type="id"/>
+    <item name="skipForward" type="id"/>
+    <item name="albumArt" type="id"/>
+    <item name="totalLength" type="id"/>
+</resources>
